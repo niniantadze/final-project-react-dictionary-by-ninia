@@ -1,3 +1,15 @@
+body {
+  background: rgba(251, 204, 235, 0.4);
+}
+a {
+  color: #8089e7;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  font-size: larger;
+}
 .App-header {
   margin: 30px 0;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "./logo.png";
+import logo from "./logo1.png";
 import Dictionary from "./Dictionary";
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Star" />
         </main>
 
         <footer className="text-center">
