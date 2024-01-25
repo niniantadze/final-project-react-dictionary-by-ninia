@@ -11,10 +11,22 @@ export default function App() {
         </header>
         <footer>
           This Website is coded by{" "}
-          <a href="https://www.linkedin.com/in/nino-antadze/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/nino-antadze/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             NiniA{" "}
           </a>
-          and is <a>open-sourced on Github</a>
+          and is{" "}
+          <a
+            href="https://github.com/niniantadze/final-project-react-dictionary-by-ninia"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            open-sourced on Github
+          </a>
         </footer>
       </div>
     </div>
